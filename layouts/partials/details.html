@@ -10,7 +10,7 @@
         </ul>
         <ul id="tags">
           {{ range .Params.tags }}
-            <li> <a href="{{ $baseurl }}tags/{{ . | urlize }}">{{ . }}</a> </li>
+            <li> <a href="{{ $baseurl }}/tags/{{ . | urlize }}">{{ . }}</a> </li> <!-- tags needs a leading slash for proper generation on gh-pages -->
           {{ end }}
         </ul>
     </div>

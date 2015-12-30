@@ -1,0 +1,14 @@
+baseurl = "http://deliciousdetector.com"
+title = "Delicious Detector"
+languageCode = "en-us"
+disqusShortname = "deliciousdetect"
+copyright = "Copyright (C) 2014-2015 Delicious Detector; all rights reserved."
+canonifyurls = true
+MetaDataFormat = "yaml"
+Paginate = "5"
+[author]
+    name = "Delicious Detector"
+
+[indexes]
+    tag = "tags"
+    topic = "topics"
